@@ -1,0 +1,85 @@
+.manu_sales{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    width: 100%;
+    height: 476px;
+    margin-top: 90px;
+    background: linear-gradient(
+        262.69deg, #339933 -0.43%, #006300 104.36%)
+}
+.image_sales_style{
+    display: flex;
+    justify-content: flex-start;
+    padding: 27px 20px 27px 91px;
+}
+.sales_all{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding:  0 255px 0 0;
+    gap: 46px
+}
+.discount_text_big{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 120%;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+.discount_text_small{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+.input_discount_style{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input{
+    width: 473px;
+    height: 75px;
+    border: none;
+    border-radius: 15px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0.03em;
+
+    color: #6C6C6C;
+}
+
+.get_your_discount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 473px;
+    height: 75px;
+    background: #339933;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28.7392px;
+    line-height: 120%;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+
+}
+

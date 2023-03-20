@@ -1,0 +1,20 @@
+.title_products_list{
+    text-align: start;
+    padding: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    
+    color: #000000;
+
+}
+
+.products_list_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    padding: 10px 3px 0 30px;
+}

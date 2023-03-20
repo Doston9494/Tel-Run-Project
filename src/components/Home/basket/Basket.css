@@ -1,0 +1,111 @@
+
+.basket_all{
+    display: flex;
+    justify-content: space-between;
+}
+.basket_style{
+    min-height: 650px;
+    max-width: 1440px;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.basket_and_back_to_shop_style{
+    width: 824px;
+    display: flex;
+    justify-content: space-between;
+}
+.text_basket{
+    margin: 10px 0 0 30px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.home{
+    margin: 10px 0 0 33px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.home_container{
+    margin: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.back_to_shop{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.products_to_basket{
+    max-width: 824px;
+    display: flex;
+    flex-direction: column;
+}
+
+.order_place{
+    margin: 110px 30px 0  20px;
+    width: 496px;
+    height: 393px;
+    border: 2px solid #000000;
+    border-radius: 21px;
+    display: flex;
+    flex-direction: column;
+}
+
+.order_details{
+    margin: 25px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 130%;
+    color: #000000;
+}
+.total{
+    display: flex;
+    margin: 45px 0 50px 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.input_basket{
+    width: 93%;
+    height: 73px;
+    border-radius: 17px;
+    margin: 15px;
+}
+.order{
+    width: 94%;
+    height: 76px;
+    border-radius: 17px;
+    margin: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    background-color: #339933;
+    color: #FFFFFF;
+}

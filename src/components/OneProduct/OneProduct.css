@@ -1,0 +1,115 @@
+.one_product_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+.title_style{
+    margin: 0 0  30px;
+    max-width: 610px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+
+    color: #3A3A3A;
+}
+.images_one_product{
+    width: 610px;
+    height: 610px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.prices_container_and_basket{
+    padding: 110px 30px 0 0 ;
+}
+.prices_container{
+    padding: 0 0 30px ;
+    max-width: 409px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.one_product_discont_price_style{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.one_product_price{
+    padding: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-decoration-line: line-through;
+
+    color: #8B8B8B;
+}
+
+.one_product_item_discounted{
+    padding: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    
+    color: #FF32A1;
+}
+.add_to_basket_style{
+    width: 397px;
+    height: 86px;
+    background: #339933;
+    border: 2px solid #339933;
+    border-radius: 10px;
+    font-size: 28px;
+    color: #FFFFFF;
+
+}
+.description_name{
+    padding: 20px 0 0 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+
+.description_content{
+    max-width: 412px;
+    padding: 20px 0 0 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+.description_line{
+    color: #C0C0C0;
+    max-width: 422px;
+    padding: 20px 0 0 0;
+    
+}
+

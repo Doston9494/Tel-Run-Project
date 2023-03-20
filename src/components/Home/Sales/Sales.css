@@ -1,0 +1,80 @@
+
+
+.sales_wrapper {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px 0 ;
+    grid-gap: 50px;
+    margin: 50px 0 0 30px;
+    height: 600px;
+    max-width: 1440px;
+    background-color: #fff;
+    justify-content: space-between;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.text_sales{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.sales_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 50px 0 ;
+    grid-gap: 50px;
+    width: 100%;
+    
+}
+
+.image_style_sales{
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    
+}
+
+.wrapper_products{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.product_title_descr{
+    
+    font-size: 20px;
+    font-family: 'Montserrat';
+    color: black
+}
+
+.product_prices_wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.link_css{
+    text-decoration: none;
+}
+
+.price_line{
+    color: gray;
+    text-decoration: line-through;
+    font-size: 20px;
+
+}
+
+.discount{
+    color: #FF32A1;
+    font-size: 20px;
+}

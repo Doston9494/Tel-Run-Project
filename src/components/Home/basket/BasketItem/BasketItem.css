@@ -71,6 +71,7 @@
 .button_style_cunter{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     gap: 35px;
     width: 140px;
     height: 30px;
@@ -81,11 +82,22 @@
 }
 
 .mines_button{
-    margin: 3px;
+    margin:0 10px 0 ;
+    border: medium none;
+    background-image: none; 
+    background: transparent;
+    float: left;
+    background-color: transparent;
+    font-size: 25px;
 }
-
 .plus_button{
-    margin: 3px;
+    margin:0 10px 0 ;
+    border: medium none;
+    background-image: none; 
+    background: transparent;
+    float: left;
+    background-color: transparent;
+    font-size: 25px;
 }
 
 .delete_button{

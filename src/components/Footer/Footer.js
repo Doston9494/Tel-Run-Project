@@ -1,5 +1,6 @@
 
 import { forwardRef } from 'react'
+import { Link } from 'react-router-dom'
 import './Footer.css'
 import {ReactComponent as SvgInstagram} from './VectorInstagram.svg'
 import {ReactComponent as SvgWhatsapp} from './VectorWhatsapp.svg'
@@ -23,7 +24,9 @@ const Footer = forwardRef((props, ref) => {
             </div>
            <div className='adress_main'>
              <h2 className='adress'>Adress</h2>
-             <h3 className='adress_content'>Linkenstrasse 2, 8 OG, 10785, <br/> Berlin, Deutschland</h3>
+             <p><a className='adress_content' href="https://www.google.com/search?q=telranDE" 
+              target="_blank">Linkenstrasse 2, 8 OG, 10785, <br/> Berlin, Deutschland</a>.
+             </p>
              <p className='workinngs_hours'>Working hours:</p>
              <h3 className='hours_day'>24 hours a day</h3>
            </div>

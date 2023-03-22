@@ -18,9 +18,12 @@ const  Categories = forwardRef((props, ref) => {
         <div ref={ref}>
             <div className='catalog_wrapper'>
                 <h3 className='stayle_catalog'>Catalog</h3>
-                <Link to={`/categories`}>
-                    <button className='button_all_categories'>All categories</button>
-                </Link>
+                <div className='button_style_categories'>
+                    <Link to={`/categories`}>
+                        <button className='button_all_categories'>All categories</button>
+                    </Link>
+                </div>
+                
             </div>
             <div className="Categories">
                 {categories.map(elem =>

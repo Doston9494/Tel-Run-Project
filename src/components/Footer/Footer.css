@@ -6,11 +6,18 @@
     background-color: #FFFFFF;
     height: 371px;
     width: 100%;
+    margin: 40px 0 0 0;
 }
 
 .contacts_footer{
     padding: 30px 0 0 25px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
     font-size: 40px;
+    line-height: 130%;
+
+    color: #000000;
 }
 
 .contact_number{
@@ -51,7 +58,7 @@
 
 
 .adress{
-    padding: 30px 40px 0 0;
+    padding: 40px 40px 25px 0;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -61,7 +68,7 @@
     color: #000000;
 }
 .adress_content{
-    padding: 30px 30px 0 0;
+    padding: 30px 30px 20px 0;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -72,7 +79,7 @@
 }
 
 .workinngs_hours{
-    padding: 20px 0 0 0;
+    padding: 40px 0 0 0;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;

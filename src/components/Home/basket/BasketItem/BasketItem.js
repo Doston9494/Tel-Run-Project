@@ -1,4 +1,4 @@
-пшеimport './BasketItem.css'
+import './BasketItem.css'
 import { useDispatch } from 'react-redux'
 import { backEndUrl } from '../../../..'
 import { decrCountItemAction, deleteFromBasketAction, incrCountItemAction } from '../../../../store/basketReducer'

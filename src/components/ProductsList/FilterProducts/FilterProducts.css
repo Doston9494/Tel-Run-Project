@@ -27,18 +27,25 @@
     width: 103px;
     height: 42px;
     border: 1px solid #000000;
-    border-radius: 7px;
 }
 .input_price_until{
     width: 103px;
     height: 42px;
     border: 1px solid #000000;
-    border-radius: 7px;
 }
 .discunted_sorted{
     display: flex;
     align-items: center;
     gap: 91px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+
 }
 
 .label_discounted_price{
@@ -56,5 +63,4 @@ input[type=checkbox] {
     width: 219px;
     height: 40px;
     border: 1px solid #000000;
-    border-radius: 7px;
 }

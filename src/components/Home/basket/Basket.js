@@ -45,7 +45,10 @@ function Basket (){
                 </div>
                 <div className='order_place'>
                     <p className='order_details'>Order details</p>
-                    <p className='total'>Total {sum}</p>
+                    <div className='total_sum'>
+                        <p className='total'>Total </p>
+                        <p className='sum_basket'>{sum} $</p>
+                    </div>
                     <input className='input_basket' placeholder='     Phone number' type="number"></input>
                     <button className='order' onClick={() => dispatch(clearBasketAction())}>Order</button>
                 </div>
